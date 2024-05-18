@@ -4,7 +4,7 @@ import telebot
 import requests
 from datetime import datetime, timedelta
 
-TOKEN = "6480485818:AAHyiYyC3JwlHDq3rjGLEkG_Ojeqq6ny5R8" # <YOUR_TELEGRAM_BOT_TOKEN>
+TOKEN = <YOUR_TELEGRAM_BOT_TOKEN>
 bot = telebot.TeleBot(TOKEN)
 
 def lambda_handler(event, context):
