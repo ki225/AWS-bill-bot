@@ -2,9 +2,10 @@ import json
 import boto3
 import telebot
 import requests
-from datetime import datetime, timedelta
+import os
+from datetime import datetime
 
-TOKEN = <YOUR_TELEGRAM_BOT_TOKEN>
+TOKEN = os.environ['TELEGRAM_BOT_TOKEN']
 bot = telebot.TeleBot(TOKEN)
 
 def lambda_handler(event, context):
